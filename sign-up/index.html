@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="reg">
+        <div class="container">
+            <form id="registrationForm">
+                <h1 style="color: white;">Register Here</h1>
+                <div class="fname">
+                    <label for="fname"></label>
+                    <input type="text" name="fname" id="fname" placeholder="Full Name">
+                   
+                </div>
+                <div class="email">
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    
+                </div>
+                <div class="mobile">
+                    <label for="mobile"></label>
+                    <input type="tel" name="mobile" id="number" placeholder="Mobile">
+                    
+                </div>
+                <div class="password">
+                    <label for="password"></label>
+                    <input type="password" name="password" id="password" placeholder="Password">
+                  
+                </div>
+                <div class="password">
+                    <label for="confirmPassword"></label>
+                    <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password">
+                    
+                </div>
+                <div class="form-btn">
+                    <button type="submit" id="btn">Register</button>
+                </div>
+                <p >If you have an account</p>
+                <p style="cursor: pointer; " onclick="refer()" class="new-user">Login</p>
+            </form>
+        </div>
+    </section>
+
+    <script src="/sign-up/signup.js"></script>
+</body>
+
+</html>

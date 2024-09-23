@@ -1,0 +1,49 @@
+{
+  "employees": [
+    {
+      "employeeId": "108",
+      "fullName": "Hannah Scott",
+      "email": "hannah.scott@example.com",
+      "mobileNumber": "9876543217",
+      "officeCode": "B3C4",
+      "jobTitle": "JavaScript Developer",
+      "id": "e900"
+    },
+    {
+      "employeeId": "109",
+      "fullName": "Ian Baker",
+      "email": "ian.baker@example.com",
+      "mobileNumber": "9876543218",
+      "officeCode": "B3C4",
+      "jobTitle": "Front-End Developer",
+      "id": "e901"
+    },
+    {
+      "employeeId": "110",
+      "fullName": "Julia Harris",
+      "email": "julia.harris@example.com",
+      "mobileNumber": "9876543219",
+      "officeCode": "B3C4",
+      "jobTitle": "Back-End Developer",
+      "id": "e902"
+    },
+    {
+      "employeeId": "111",
+      "fullName": "Kevin Adams",
+      "email": "kevin.adams@example.com",
+      "mobileNumber": "9876543220",
+      "officeCode": "B3C4",
+      "jobTitle": "Full Stack Developer",
+      "id": "e903"
+    },
+    {
+      "employeeId": "112",
+      "fullName": "John ",
+      "email": "laura.turner@example.com",
+      "mobileNumber": "9876543221",
+      "officeCode": "B3C4",
+      "jobTitle": "Database Administrator",
+      "id": "e904"
+    }
+  ]
+}
